@@ -232,12 +232,6 @@ tr:hover {
 .hidden-sm {
   display: none;
 }
-.test{
-  position:fixed;
-  top:0;
-  left:0;
-  z-index: 1;
-}
 .header{
    background-color:#050A30; 
    width:100%;
@@ -290,11 +284,20 @@ tr:hover {
     
     color: white;
   }
+@media (min-width:760px){
+    .test{
+      position:fixed;
+      top:0;
+      left:0;
+      z-index: 1;
+    }
+}
 
 @media only screen and (min-width: 33.75em) {  /* 540px */
   .container {
     width: 80%;
   }
+  
 }
 
 @media only screen and (min-width: 45em) {  /* 720px */
