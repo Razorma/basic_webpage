@@ -1,0 +1,227 @@
+body{
+    background-color:#eee;
+    padding:0;
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+.header{
+  position:fixed;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center;
+}
+.nav-bar{
+  background-color:#050A30;
+  width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  display:flex;
+  justify-content:space-around;
+ 
+  }
+  .nav-bar ul{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   list-style: none;
+  }
+.html-links ul{
+    display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   list-style: none;
+}
+.nav-link{
+    color:white;
+  text-decoration:none;
+  }
+  a{
+    color:white;
+    text-decoration:none;
+    font-size:1rem;
+    padding:1rem 1rem;
+    
+  }
+a:hover{
+    background-color:darkslategray;
+}
+.intro{
+    background-image: 
+    url(Table.webp);
+    height:100vh;
+}
+#intro{
+    background-image: 
+    url(Table.webp);
+    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color:#eee;  
+}
+@media (max-width:760px){
+    #intro{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        color:#eee;  
+    }  
+}
+
+#me{
+    width:20%;
+}
+#durban{
+    width:60%;
+}
+.city_info{
+    background-color: darkslategray;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    width:100%;
+    height:100%; 
+    margin-top:0px;
+    margin-bottom:0px;
+    color:white;
+}
+@media (max-width:760px){
+    #city{
+      display:flex;
+      flex-wrap: wrap; 
+      justify-content: center;
+      align-items: center;
+    }  
+    #durban{
+      width:100%;
+    }
+    .city_info{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height:100%;
+    }
+  
+} 
+    
+#city{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:calc(90%/2);
+    margin:20px;
+}
+#heritage{
+    width:300px;
+}
+#pilgrim{
+    width:300px;
+}
+.language{
+    background-color:#050A30;
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    color: #e6e6e6;
+  
+}
+
+#A_foreign_language p{
+    width:60%;
+}
+table {
+    
+    width: 60%;
+    margin-bottom: 70px;
+}
+  
+th, td {
+    border:10px;
+    text-align: center;
+    padding: 8px;
+}
+  
+th {
+    background-color: darkslategray; 
+    color: white;
+}
+  
+tr{
+    background-color: #f2f2f2;
+    color:black;
+}
+  
+tr:hover {
+    background-color: #e6e6e6;
+}
+.history_box{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    width:100%;
+    height: 100vh;
+    background-color: darkslategray;
+    color:white;
+}
+.history_info{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    width:calc(100%/2);
+    margin:0px;
+    
+}
+.history_facts{
+    height:540px;
+    overflow:auto; 
+} 
+@media (max-width:760px){
+    .history_box{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height:100%;
+        width:100%;
+        height: 100%;
+    }
+    .history_facts img{
+        float:left;
+        margin-left:1em;
+      }
+     #heritage{
+        width:50%;
+    }
+    #pilgrim{
+        width:50%;
+    }
+    #museum{
+        width:50%;
+    } 
+} 
+
+.history_facts img{
+    float:right;
+    margin-right:1em;
+}
+.history_info ul{
+    list-style:none;
+}
+.footer {
+    background-color: #050A30;
+    padding: 1em;
+    color: White;
+    display: flex;
+}
+
