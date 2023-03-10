@@ -333,59 +333,39 @@ tr:hover {
       padding-top: 200px;
     }
 }
-#heritage:hover{
-  width:60%;
-}
-#pilgrim:hover{
-  width:60%;
-}
-#museum:hover{
-  width:60%;
-}
+
 @media (min-width:760px){
   #heritage{
-    width:40%;
+    width:50%;
     float: right;
     margin-left: 1em;
   }
   #pilgrim{
-    width:40%;
+    width:50%;
     float:right;
     margin-left: 1em;
   } 
   #museum{
-    width:40%;
+    width:50%;
     float: right;
     margin-left: 1em;
-    
   }
+    #heritage:hover{
+      width:60%;
+    }
+    #pilgrim:hover{
+      width:60%;
+    }
+    #museum:hover{
+      width:60%;
+    }
+    
+  
  
 }
-/* @media (max-width:720px){
-  #heritage{
-    width:50%;
-   float: right;
-    margin-left: 1em; 
-    display: flex;
-    flex-direction: column;
-  } 
-  #pilgrim{
-    width:50%;
-    float: right;
-    margin-left: 1em;
-  } 
-  #museum{
-    width:50%;
-    float: left;
-    margin-right: 1em;
-    
-  }
-} */
-
-
 @media only screen and (min-width: 33.75em) {  /* 540px */
   .container {
-    width: 80%;
+     width: 100%;/*80 */
   }
   
 }
@@ -447,7 +427,7 @@ tr:hover {
 
 @media only screen and (min-width: 60em) { /* 960px */
   .container {
-    width: 75%;
+     width: 100%;/*75 */
     max-width: 60rem;
   }
 }

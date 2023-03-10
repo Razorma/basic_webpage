@@ -4,49 +4,36 @@ body{
     margin:0;
     font-family: 'Times New Roman', Times, serif;
   }
-.header{
-  position:fixed;
-  display:flex;
-  flex-direction:row;
-  justify-content:space-around;
-  align-items:center;
-}
-.nav-bar{
+
+ .nav-bar{
   background-color:#050A30;
   width:100%;
   position:fixed;
   top:0;
   left:0;
   display:flex;
-  justify-content:space-around;
+  justify-content:space-between;
  
   }
+  
   .nav-bar ul{
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
    list-style: none;
   }
+ 
 .html-links ul{
     display: flex;
-   flex-direction: row;
-   justify-content: space-around;
    list-style: none;
 }
-.nav-link{
-    color:white;
-  text-decoration:none;
-  }
-  a{
+a{
     color:white;
     text-decoration:none;
     font-size:1rem;
-    padding:1rem 1rem;
-    
+    padding:1rem 1rem;  
   }
-a:hover{
-    background-color:darkslategray;
+  a:hover{
+    color:darkslategray;
 }
+
 .intro{
     background-image: 
     url(Table.webp);
@@ -69,6 +56,12 @@ a:hover{
         position: relative;
         left:20%;
     } 
+    .nav-bar ul{
+        display: flex; 
+        flex-direction: row; 
+        justify-content: space-around; 
+        list-style: none;
+       }
 }
 
 
