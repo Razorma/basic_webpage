@@ -294,17 +294,17 @@ tr:hover {
 
   @media (max-width:760px){
      #heritage{
-      width:40%;
-      float: right;
+      width:50%;
+      float: right; 
       margin-left: 1em;
     } 
     #pilgrim{
-      width:40%;
+      width:50%;
       float: right;
       margin-left: 1em;
     } 
     #museum{
-      width:40%;
+      width:50%;
       float: left;
       margin-right: 1em;
       
@@ -361,24 +361,26 @@ tr:hover {
   }
  
 }
-@media (max-width:720px){
+/* @media (max-width:720px){
   #heritage{
-    width:40%;
-    float: right;
-    margin-left: 1em;
+    width:50%;
+   float: right;
+    margin-left: 1em; 
+    display: flex;
+    flex-direction: column;
   } 
   #pilgrim{
-    width:40%;
+    width:50%;
     float: right;
     margin-left: 1em;
   } 
   #museum{
-    width:40%;
+    width:50%;
     float: left;
     margin-right: 1em;
     
   }
-}
+} */
 
 
 @media only screen and (min-width: 33.75em) {  /* 540px */

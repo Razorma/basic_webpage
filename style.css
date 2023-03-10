@@ -52,6 +52,7 @@ a:hover{
     url(Table.webp);
     height:100vh;
     justify-content: center;
+    width: 100%;
 }
 
 #intro{
@@ -66,9 +67,10 @@ a:hover{
 @media (min-width:760px){
     #name{
         position: relative;
-        left:23%;
+        left:20%;
     } 
 }
+
 
 @media (max-width:760px){
     #intro{
@@ -76,7 +78,9 @@ a:hover{
         flex-direction: column;
         justify-content:center;
         align-items: center;
-        color:#eee;  
+        color:#eee;
+        margin: auto;  
+        padding: auto;
     } 
 }
 
@@ -175,17 +179,9 @@ tr:hover {
     background-color: darkslategray;
     color:white;
 }
-.history_info{
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    align-items:center;
-    width:calc(100%/2);
-    margin:0px;
-    
-}
+
 .history_facts{
-    height:540px;
+    max-height:540px;
     overflow:auto; 
 } 
 @media (max-width:760px){
@@ -196,27 +192,30 @@ tr:hover {
         align-items: center;
         height:100%;
         width:100%;
-        height: 100%;
     }
   
     #heritage{
-        width:30%;
+        width:50%;
         float: right;
         margin-left: 1em;
-    }
-    #pilgrim{
-        width:30%;
-        float: right;
-        margin-left: 1em;
-    } 
-    #museum{
-        width:30%;
-        float: left;
         margin-right: 1em;
     }
-    #heritage:hover{
+    #pilgrim{
+        width:50%;
+        float: right;
+        margin-left: 1em;
+        margin-right: 1em;
+    } 
+    #museum{
+        width:50%;
+        float: left;
+        margin-right: 1em;
+        margin-left: 1em;
+       
+    }
+     #heritage:hover{
         width:60%;
-      }
+      } 
       #pilgrim:hover{
         width:60%;
       }
@@ -237,7 +236,7 @@ tr:hover {
 .footer {
     background-color: #050A30;
     padding: 1em;
-    color: White;
+    color: #eee;
     display: flex;
 }
 .history_facts::-webkit-scrollbar{
