@@ -51,18 +51,25 @@ a:hover{
     background-image: 
     url(Table.webp);
     height:100vh;
+    justify-content: center;
 }
+
 #intro{
-    background-image: 
-    url(Table.webp);
-    width: 100%;
-    height:100vh;
+    width: 80%;
+    height:100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    justify-content:space-around;
+    align-items: center; 
     color:#eee;  
 }
+@media (min-width:760px){
+    #name{
+        position: relative;
+        left:23%;
+    } 
+}
+
 @media (max-width:760px){
     #intro{
         display: flex;
@@ -70,7 +77,7 @@ a:hover{
         justify-content:center;
         align-items: center;
         color:#eee;  
-    }  
+    } 
 }
 
 #me{
@@ -83,9 +90,9 @@ a:hover{
     background-color: darkslategray;
     display:flex;
     flex-direction:row;
-    justify-content:space-around;
+    justify-content:center;
     width:100%;
-    height:100%; 
+    height:60vh; 
     margin-top:0px;
     margin-bottom:0px;
     color:white;
@@ -115,15 +122,10 @@ a:hover{
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    width:calc(90%/2);
-    margin:20px;
+    width:30%;
+    margin-bottom: 20px;
 }
-#heritage{
-    width:300px;
-}
-#pilgrim{
-    width:300px;
-}
+
 .language{
     background-color:#050A30;
     display: flex;
@@ -196,25 +198,39 @@ tr:hover {
         width:100%;
         height: 100%;
     }
-    .history_facts img{
-        float:left;
-        margin-left:1em;
-      }
-     #heritage{
-        width:50%;
+  
+    #heritage{
+        width:30%;
+        float: right;
+        margin-left: 1em;
     }
     #pilgrim{
-        width:50%;
-    }
-    #museum{
-        width:50%;
+        width:30%;
+        float: right;
+        margin-left: 1em;
     } 
-} 
-
-.history_facts img{
-    float:right;
-    margin-right:1em;
+    #museum{
+        width:30%;
+        float: left;
+        margin-right: 1em;
+    }
+    #heritage:hover{
+        width:60%;
+      }
+      #pilgrim:hover{
+        width:60%;
+      }
+      #museum:hover{
+        width:60%;
+      }  
 }
+ @media (min-width:760px){
+     .history_facts img{
+        float: right;
+        margin-right:1em;
+        width:40%;
+    }
+} 
 .history_info ul{
     list-style:none;
 }
@@ -224,4 +240,7 @@ tr:hover {
     color: White;
     display: flex;
 }
+.history_facts::-webkit-scrollbar{
+    display: none;
+  }
 

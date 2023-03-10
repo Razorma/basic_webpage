@@ -76,6 +76,10 @@ p {
 .left {
   text-align: left;
 }
+.k{
+  position: relative;
+  left:69px;
+}
 
 .right {
   text-align: right;
@@ -108,6 +112,7 @@ p {
   float: left;
   margin: 0.5rem 2%;
   min-height: 0.125rem;
+ 
 }
 .language {
   background-color: #050a30;
@@ -244,9 +249,12 @@ tr:hover {
   a:hover{
     background-color:darkslategray;
   }
-  .city_info{
+  #favorite_city{
     background-color: darkslategray;
-    width:100%;
+  }
+  .city_info{
+    background-color: darkslategray; 
+    width:79%;
     height:100%; 
     margin-top:0px;
     margin-bottom:0px;
@@ -276,14 +284,53 @@ tr:hover {
     height: 100%;
     background-color: darkslategray;
     color:white;
+    overflow-x: hidden;
   }
   #intro{
     padding-top: 200px;
+
   }
   #name{
     
     color: white;
   }
+  @media (max-width:760px){
+     #heritage{
+      width:40%;
+      float: right;
+      margin-left: 1em;
+    } 
+    #pilgrim{
+      width:40%;
+      float: right;
+      margin-left: 1em;
+    } 
+    #museum{
+      width:40%;
+      float: left;
+      margin-right: 1em;
+      
+    }
+    #intro {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+   
+}
+#intro {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width:760px){
+  .test{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 1;
+  }
+}
 @media (min-width:760px){
     .test{
       position:fixed;
@@ -292,6 +339,53 @@ tr:hover {
       z-index: 1;
     }
 }
+#heritage:hover{
+  width:60%;
+}
+#pilgrim:hover{
+  width:60%;
+}
+#museum:hover{
+  width:60%;
+}
+@media (min-width:760px){
+  #heritage{
+    width:40%;
+    float: right;
+    margin-left: 1em;
+  }
+  #pilgrim{
+    width:40%;
+    float:right;
+    margin-left: 1em;
+  } 
+  #museum{
+    width:40%;
+    float: right;
+    margin-left: 1em;
+    
+  }
+ 
+}
+@media (max-width:720px){
+  #heritage{
+    width:40%;
+    float: right;
+    margin-left: 1em;
+  } 
+  #pilgrim{
+    width:40%;
+    float: right;
+    margin-left: 1em;
+  } 
+  #museum{
+    width:40%;
+    float: left;
+    margin-right: 1em;
+    
+  }
+}
+
 
 @media only screen and (min-width: 33.75em) {  /* 540px */
   .container {
@@ -352,6 +446,7 @@ tr:hover {
   .hidden-sm {
     display: block;
   }
+  
 }
 
 @media only screen and (min-width: 60em) { /* 960px */
