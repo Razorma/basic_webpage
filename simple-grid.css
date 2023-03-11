@@ -314,6 +314,9 @@ tr:hover {
       margin-left: auto;
       margin-right: auto;
     }
+    .history_info{
+      width:97%;
+  }
     
 }
 #intro {

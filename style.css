@@ -4,7 +4,6 @@ body{
     margin:0;
     font-family: 'Times New Roman', Times, serif;
   }
-
  .nav-bar{
   background-color:#050A30;
   width:100%;
@@ -13,6 +12,7 @@ body{
   left:0;
   display:flex;
   justify-content:space-between;
+  z-index: 2;
  
   }
   
@@ -61,7 +61,15 @@ a{
         flex-direction: row; 
         justify-content: space-around; 
         list-style: none;
-       }
+    }
+    #city{
+        width:50%; 
+       
+    }
+    #durban{
+        position: relative;
+        left:10%;
+    }
 }
 
 
@@ -82,6 +90,7 @@ a{
 }
 #durban{
     width:60%;
+    z-index: 1;
 }
 .city_info{
     background-color: darkslategray;
@@ -100,9 +109,11 @@ a{
       flex-wrap: wrap; 
       justify-content: center;
       align-items: center;
+      width: 90%;
     }  
     #durban{
       width:100%;
+      z-index: 1;
     }
     .city_info{
         display:flex;
@@ -111,7 +122,6 @@ a{
         align-items: center;
         height:100%;
     }
-  
 } 
     
 #city{
@@ -119,7 +129,6 @@ a{
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    width:30%;
     margin-bottom: 20px;
 }
 
@@ -186,6 +195,9 @@ tr:hover {
         height:100%;
         width:100%;
     }
+    .history_info{
+        width:97%;
+    }
   
     #heritage{
         width:50%;
@@ -216,16 +228,17 @@ tr:hover {
         width:60%;
       }  
 }
- @media (min-width:760px){
+@media (min-width:760px){
      .history_facts img{
         float: right;
         margin-right:1em;
-        width:40%;
+        width:50%;
+    } 
+    .history_facts{
+       width:99%;
     }
 } 
-.history_info ul{
-    list-style:none;
-}
+
 .footer {
     background-color: #050A30;
     padding: 1em;
