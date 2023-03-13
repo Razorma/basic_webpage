@@ -335,6 +335,10 @@ tr:hover {
     #intro{
       padding-top: 200px;
     }
+    #name{
+      padding-top: 23%;
+      padding-left: 7%;
+    }
 }
 
 @media (min-width:760px){
