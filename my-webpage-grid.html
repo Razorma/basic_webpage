@@ -8,64 +8,30 @@
     <link rel="stylesheet" href="simple-grid.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="row test">
-        <header class="header">
-          <nav class="nav-bar">
-            <div class="row">
-              <div class="col-6 html-links">
-                <ul>
-                  <div class="row">
-                    <div class="col-6">
-                      <li>
-                        <a class="nav-link" href="my-webpage.html"
-                          >Webpage flexbox</a
-                        >
-                      </li>
-                    </div>
-                    <div class="col-6">
-                      <li>
-                        <a class="nav-link" href="my-webpage-grid.html"
-                          >Webpage grid</a
-                        >
-                      </li>
-                    </div>
-                  </div>
-                </ul>
-              </div>
-              <div class="col-6">
-                <ul>
-                  <div class="row">
-                    <div class="col-3">
-                      <li><a class="nav-link" href="#intro">Intro</a></li>
-                    </div>
-                    <div class="col-3">
-                      <li>
-                        <a class="nav-link" href="#favorite_city">Visit</a>
-                      </li>
-                    </div>
-                    <div class="col-3">
-                      <li>
-                        <a class="nav-link" href="#A_foreign_language"
-                          >A foreign language</a
-                        >
-                      </li>
-                    </div>
-                    <div class="col-3">
-                      <li>
-                        <a class="nav-link" href="#Historic_places"
-                          >Historic places in my city</a
-                        >
-                      </li>
-                    </div>
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </header>
-      </div>
-    </div>
+    <header class="header">
+      <nav class="nav-bar">
+        <div class="html-links">
+          <ul>
+            <li>
+              <a class="nav-link" href="my-webpage.html">flexbox</a>
+            </li>
+            <li>
+              <a class="nav-link" href="my-webpage-grid.html">Grid</a>
+            </li>
+          </ul>
+        </div>
+        <ul>
+          <li><a class="nav-link" href="#intro">Intro</a></li>
+          <li><a class="nav-link" href="#favorite_city">Visit</a></li>
+          <li>
+            <a class="nav-link" href="#A_foreign_language">foreign</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#Historic_places">Historical</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <div class="row">
       <div class="container">
         <section class="intro">
@@ -80,7 +46,7 @@
         </section>
         <section id="favorite_city" class="">
           <div class="row city_info center">
-            <div class="left k"><h3 id="city">Durban</h3></div>
+            <div class="center"><h3 id="city">Durban</h3></div>
             <div id="city" class="col-6 city_pic">
               <img
                 id="durban"
@@ -138,7 +104,9 @@
               <div class="row rr center">
                 <div class="">
                   <div class="left">
-                    <h4 id="text-color">Barberton Heritage Walk</h4>
+                    <h4 id="text-color" class="center">
+                      Barberton Heritage Walk
+                    </h4>
                   </div>
                   <img
                     id="heritage"
@@ -164,7 +132,7 @@
               <div class="row">
                 <div class="">
                   <div class="left">
-                    <h4 id="text-color">Barberton Museum</h4>
+                    <h4 id="text-color" class="center">Barberton Museum</h4>
                   </div>
                   <img
                     id="museum"
@@ -190,7 +158,7 @@
             <div class="col-4 history_info" id="photo_right">
               <div class="row">
                 <div class="">
-                  <h4 id="text-color">pilgrims rest</h4>
+                  <h4 id="text-color" class="center">pilgrims rest</h4>
                   <img
                     id="pilgrim"
                     src="roal_rest.jpg"
