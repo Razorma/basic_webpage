@@ -240,7 +240,14 @@ tr:hover {
       }
       #museum:hover{
         width:60%;
-      }  
+      } 
+      table {
+        width: 90%;
+        margin-bottom: 70px;
+    }
+    #A_foreign_language p{
+        width:90%;
+    }
 }
 @media (min-width:760px){
      .history_facts img{
