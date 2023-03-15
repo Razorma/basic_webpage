@@ -1,0 +1,22 @@
+
+body{
+    background-color:darkslateblue;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.boxes{
+    display:grid;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;   
+}
+label{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+}
