@@ -20,7 +20,9 @@ body{
   .nav-bar ul{
    list-style: none;
   }
- 
+  .html-links img{
+    padding-top: 9px;
+  }
 .html-links ul{
     display: flex;
    list-style: none;

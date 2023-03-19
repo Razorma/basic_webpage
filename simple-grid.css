@@ -275,6 +275,9 @@ tr:hover {
    width:100%;
    color: white;
   }
+  .html-links img{
+    padding-top: 9px;
+  }
   .nav-link{
     color:white;
     text-decoration:none;
